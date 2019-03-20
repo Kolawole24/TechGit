@@ -1,4 +1,4 @@
-<?php
+<?phps
     $to = 'kolawole4mercy@gmail.com';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
@@ -21,7 +21,7 @@
         
     </table>';
 
-    if (@mail($to, $email, $message, $headers))
+    if (@gmail($to, $email, $message, $headers))
     {
         echo 'The message has been sent.';
     }else{

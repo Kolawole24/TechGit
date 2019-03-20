@@ -67,7 +67,7 @@ $(function() {
 		margin: 30,
 		nav: true,
 		stagePadding: 60,
-		navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ],
+		// navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ],
 		responsive: {
 			0: {
 				items: 1,
@@ -103,16 +103,16 @@ $(function() {
 		margin: 30,
 		nav: true,
 		dots: false,
-		navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ]
+		// navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ]
 	});
 
 	$('.testi-slider').owlCarousel({
 		items: 1,
-		loop: true,
-		autoplay: true,
+		// loop: true,
+		// autoplay: true,
 		margin: 30,
 		nav: true,
-		navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ]
+		// navText: [ "<img src='img/prev.png'>", "<img src='img/next.png'>" ]
 	});
 
 	// Select all links with hashes
@@ -260,3 +260,4 @@ $(function() {
 		$('#mc_embed_signup').find('form').ajaxChimp();
 	});
 });
+
