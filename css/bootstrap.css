@@ -6080,7 +6080,8 @@ button.close {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    height: 580px;
 }
 
 .carousel-item {
