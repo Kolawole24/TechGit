@@ -6,6 +6,11 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+body{
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #7c32ff;
