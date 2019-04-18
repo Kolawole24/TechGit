@@ -31,9 +31,9 @@
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
-<body id="app">
+<body>
   <!-- ================ Start Header Area ================= -->
-  <header class="default-header" style="background-color: rgb(26, 26, 43)">
+  <header class="default-header">
     <nav class="navbar navbar-expand-lg  navbar-light">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -52,48 +52,38 @@
                 courses
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="course.html">Web Developement</a>
-                <a class="dropdown-item" href="course.html">System Administration</a>
-                <a class="dropdown-item" href="course.html">Digital Marketing</a>
-                <a class="dropdown-item" href="course.html">Graphics Design</a>
-                <a class="dropdown-item" href="course.html">Database Administration</a>
-                <a class="dropdown-item" href="course.html">Photograpy</a>
+                <a class="dropdown-item" href="WebApp.html">Web Developement</a>
+                <a class="dropdown-item" href="SystAdmin.html">System Administration</a>
+                <a class="dropdown-item" href="Digital.html">Digital Marketing</a>
+                <a class="dropdown-item" href="Graphics.html">Graphics Design</a>
+              
                 
               </div>
             </li>
-            <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1z1_tZpTbqMPn_qKcA5Bs4qSJRBXKx5h4y55rp2ngFAjPLg/viewform" target="_blank"> Contact</a></li>
+           
           </ul>
         </div>
       </div>
     </nav>
+    </div>
   </header>
   <!-- ================ End Header Area ================= -->
 
   <!-- ================ start banner Area ================= -->
- 
-
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/academy.JPG" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/event/best.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/event/pretty.jpg" alt="Third slide">
+  <section class="home-banner-area">
+    <div class="container">
+      <div class="row justify-content-center fullscreen align-items-center">
+        <div class="col-lg-5 col-md-8 home-banner-left">
+         
+          </p>
+        </div>
+        <div class="offset-lg-2 col-lg-5 col-md-12 home-banner-right">
+         
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
- 
+  </section>
+  <!-- ================ End banner Area ================= -->
 
   <!-- ================ Start Feature Area ================= -->
   <section class="feature-area">
@@ -106,142 +96,133 @@
         </div>
         <div class="col-lg-2 col-md-6">
           <div class="feature-item d-flex">
-           
+            
           </div>
         </div>
         <div class="col-lg-2 col-md-6">
           <div class="feature-item d-flex border-right-0">
-            
+           
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  
-
   <!-- ================ End Feature Area ================= -->
 
   <!-- ================ Start Popular Course Area ================= -->
+  <div><h2 style="font: 1em sans-serif; font-size: 200%; position: relative;  bottom:-30px;">
+      <marquee behavior="5s" direction="rtl"><span span class="badge badge-secondary">Popular Courses
+         Available Right Now</span></marquee> 
+     </h2></div>
+  
   <section class="popular-course-area section-gap">
     <div class="container-fluid">
-      <div class="row justify-content-center section-title">
-        <div class="col-lg-12">
-          <h2 style="font: 1em sans-serif; font-size: 200%; position: relative;  bottom:-20px;">
-           <marquee behavior="5s" direction="rtl"><span span class="badge badge-secondary">Popular Courses
-              Available Right Now</span></marquee> 
-          </h2>
-        </div>
-      </div>
-      <div class="owl-carousel popuar-course-carusel">
-        <div class="single-popular-course" id="c3">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/webdev.jpg" alt="" />
-          </div>
-          <div class="details" style="height: 100px;">
-            <div class="d-flex justify-content-between mb-20">
-              <!-- <p class="value">Free</p> -->
-            </div>
-            <a href="course.html" target="_blank">
-              <h4 style="text-align: center; position: relative; top: -29px;">Web Dev</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-             
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course" id="c3">
-            <div class="thumb">
-              <img class="f-img img-fluid mx-auto" src="img/pretty.jpg" alt="" />
-            </div>
-            <div class="details" style="height: 100px;">
-              <div class="d-flex justify-content-between mb-20">
-                <!-- <p class="value">Free</p> -->
+      
+      <!-- start database -->
+      <div class="single-popular-course" id="c1">
+        <div class="thumb">
+            <div class="card-deck" style="height: 427px;">
+                <div class="card">
+                  <img class="card-img-top" src="img/webdev.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Developement</h5>
+                    <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;50000
+                        <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                        <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                      left: 90px;
+                      bottom: 7px;">Register</a></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="img/databse.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Database Administration</h5>
+                    <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;40000
+                        <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                        <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                      left: 90px;
+                      bottom: 7px;">Register</a></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="img/system.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">System Administration</h5>
+                    <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;40000
+                        <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                        <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                      left: 90px;
+                      bottom: 7px;">Register</a></p>
+                  </div>
+                </div>
               </div>
-              <a href="course.html" target="_blank">
-                <h4 style="text-align: center; position: relative; top: -29px;">Photograpy</h4>
-              </a>
-              <div class="bottom d-flex mt-15">
-               
               </div>
-            </div>
-          </div>
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/system.jpg" alt="" />
-          </div>
-          <div class="details" style="height: 88px;">
-            <div class="d-flex justify-content-between mb-20">
-              <!-- <p class="name">JavaScript</p> -->
-              <!-- <p class="value"></p> -->
-            </div>
-            <a href="course.html" target="_blank">
-              <h4 style="text-align: center; position: relative; top: -29px">System Admin</h4>
-              </a>
-            <div class="bottom d-flex mt-15">
+              </div>
+              </div>
               
-            </div>
-          </div>
-        </div>
+              </section>
 
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/digital.jpg" alt="" />
-          </div>
-          <div class="details" style="height: 88px;">
-            <div class="d-flex justify-content-between mb-20">
-            
-            </div>
-            <a href="course.html" target="_blank"></a>
-              <h4 style="text-align: center; position: relative;top: -29px">Digital Marketing</h4>
-              </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
+              <section class="popular-course-area section-gap">
+                  <div class="container-fluid">
+                    <!-- start database -->
+                    <div class="single-popular-course" id="c1">
+                      <div class="thumb">
+                          <div class="card-deck" style="height: 427px;">
+                              <div class="card">
+                                <img class="card-img-top" src="img/digital.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Digital Marketing</h5>
+                                  <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;30000
+                                      <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                                      <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                                    left: 90px;
+                                    bottom: 7px;">Register</a></p>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img class="card-img-top" src="img/graphics2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Graphics Design</h5>
+                                  <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;30000
+                                      <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                                      <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                                    left: 90px;
+                                    bottom: 7px;">Register</a></p>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img class="card-img-top" src="img/pretty.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Photography</h5>
+                                  <p class="card-text" style="color: rgb(146, 140, 140)">Course Fee:&#8358;30000
+                                      <strong style="font-size: 150%">;Payment Plan: You can pay for the program twice</strong> 
+                                      <strong style="color: rgb(155, 133, 133)">:Duration: 6weeks Intensive practical</strong>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiREpbiKYGDM0MsfRWCVLG_QFPdcNXkgSXIe3OD1gvhfFHCA/viewform?vc=0&c=0&w=1&usp=mail_form_link" target="_blank" class="btn btn-primary" style="    position: absolute;
+                                    left: 90px;
+                                    bottom: 7px;">Register</a></p>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            
+                            </section>
+
               
-            </div>
-          </div>
-        </div>
 
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/graphics2.jpg" alt="" />
-          </div>
-          <div class="details" style="height: 88px;">
-            <div class="d-flex justify-content-between mb-20">
-             
-            </div>
-            <a href="course.html" target="_blank">
-              <h4 style="text-align: center; position: relative;top: -29px;">Graphics Design</h4>
-              </a>
-            <div class="bottom d-flex mt-15">
-             
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course" id="c1">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/databse.jpg" alt="" />
-          </div>
-          <div class="details" style="height: 88px;">
-            <div class="d-flex justify-content-between mb-20">
               
-            </div>
-            <a href="course.html" target="_blank">
-              <h4 style="text-align: center; position: relative;top: -29px;">Database Admin</h4>
-              </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-               
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ================ End Popular Course Area ================= -->
+              
+              
+         
+
+
+  
 
   <!-- ================ Start Video Area ================= -->
   <section class="video-area section-gap-bottom">
@@ -249,10 +230,10 @@
       <div class="row align-items-center">
         <div class="col-lg-5">
           <div class="section-title text-white">
-            <h4 class="text-white">
+            <h2 class="text-white">
               Watch Our Trainees <br>
               in Live Action
-            </h4>
+            </h2>
             <p>
             At TechGit, You don't just get trained, we make sure you live a better life after coding school.
             </p>
@@ -264,11 +245,11 @@
               <div class="video-part">
                 <img class="img-fluid" src="img/ifeanyi.jpg" alt="">
                 <div class="overlay"></div>
-              
+                
               </div>
               <h4 class="text-white mb-20 mt-30">Web development class'19 </h4>
               <p class="text-white mb-20">
-               TechGit is a platform I recommend to any beginner who wants to become a well grinded in Web development. The program
+               TechGit is a software academy I recommend to any beginner who wants to become a well grinded in Web development. The program
                is well structured. I secured my first job first week after I graduated.
               </p>
             </div>
@@ -277,40 +258,39 @@
               <div class="video-part">
                 <img class="img-fluid" src="img/king jepson.jpg" alt="">
                 <div class="overlay"></div>
-               
                 
+                </a>
               </div>
               <h4 class="text-white mb-20 mt-30">Database Administration class'18</h4>
               <p class="text-white mb-20">
-                TechGit is a platform I recommend to any beginner who wants to become a well grinded in Database Adminitration. The program
+                TechGit is a software academy I recommend to any beginner who wants to become a well grinded in Database Adminitration. The program
                is well structured. I secured my first job second week after I graduated.
               </p>
              </div>
              <div class="single-video">
-              <div class="video-part">
-                <img class="img-fluid" src="img/pretty.jpg" alt="">
-                <div class="overlay"></div>
-               
-                
-              </div>
-              <h4 class="text-white mb-20 mt-30">Photography class'19</h4>
-              <p class="text-white mb-20">
-                TechGit is a software academy I recommend to any beginner who wants to become a well grinded in Photograpy. The program
-               is well structured. I have established my Photography company.
-              </p>
-             </div>
-
+                <div class="video-part">
+                  <img class="img-fluid" src="img/pretty.jpg" alt="">
+                  <div class="overlay"></div>
+                  
+                  </a>
+                </div>
+                <h4 class="text-white mb-20 mt-30">Photography class'19</h4>
+                <p class="text-white mb-20">
+                  TechGit is a software Academy  I recommend to any beginner who wants to become a well grinded in Photography. The program
+                 is well structured. I established my Photography company after I finished from training school.
+                </p>
+               </div>
 
              <div class="single-video">
               <div class="video-part">
                 <img class="img-fluid" src="img/chetachi.jpg" alt="">
                 <div class="overlay"></div>
-                
+              
                 </a>
               </div>
               <h4 class="text-white mb-20 mt-30">Digital Marketing class'19</h4>
               <p class="text-white mb-20">
-                TechGit is a platform I recommend to any beginner who wants to live his/her true dream. The program
+                TechGit is a software Academy I recommend to any beginner who wants to live his/her true dream. The program
                is well structured. I secured my first job second week after I graduated.
               </p>
              </div>
@@ -319,12 +299,12 @@
               <div class="video-part">
                 <img class="img-fluid" src="img/collins.jpg" alt="">
                 <div class="overlay"></div>
-               
                 
+                </a>
               </div>
               <h4 class="text-white mb-20 mt-30">System Administration class'19</h4>
               <p class="text-white mb-20">
-                TechGit is a platform I recommend to any beginner who wants to become a competent System administrator. The program
+                TechGit is a software academy I recommend to any beginner who wants to become a competent System administrator. The program
                is well structured. I secured my first job second week after I graduated.
               </p>
              </div>
@@ -333,12 +313,12 @@
               <div class="video-part">
                 <img class="img-fluid" src="img/epo paul.jpg" alt="" height="260px" width="61%">
                 <div class="overlay"></div>
-               
+                
                 </a>
               </div>
               <h4 class="text-white mb-20 mt-30">Graphic Design class'19</h4>
               <p class="text-white mb-20">
-                TechGit is a platform I recommend to any beginner who wants to live his/her true dream. The program
+                TechGit is a software academy I recommend to any beginner who wants to live his/her true dream. The program
                is well structured. I secured my first job second week after I graduated.
               </p>
              </div>
@@ -355,7 +335,7 @@
               </div>
               <h4 class="text-white mb-20 mt-30">Web Developement class'19</h4>
               <p class="text-white mb-20">
-                TechGit is a platform I recommend to any beginner who wants to become a well grinded in Web development. The program
+                TechGit is a software academy I recommend to any beginner who wants to become a well grinded in Web development. The program
                 is well structure. I secured my first job first month after I graduated.
               </p>
              </div>
@@ -364,86 +344,15 @@
       </div>
     </div>
   </section>
-  
-  <!-- ================ Start Blog Post Area ================= -->
-  <section class="blog-post-area section-gap">
-    <div class="container-fluid">
-      <div class="feature-inner row">
-       
-        <div class="col-lg-4 col-md-6">
-          <div class="single-blog-post">
-            <img src="img/academy.JPG" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-                <p>Our first batch bootcamp starts</p>
-              <p>1st may, 2019</p>
-            
-            </div>
-            <div class="text">
-              <h4 class="text-white">Classes</h4>
-              <div>
-                <p>
-                  An Intensive 6weeks Practical class
-                </p>
-              </div>
-              <a href="course.html" class="primary-btn">
-                View Details
-                <i class="fa fa-long-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt--160">
-          <div class="single-blog-post">
-            <img src="img/academy.JPG" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-                <p>Our 2nd batch bootcamp starts</p>
-                <p>1st August, 2019</p>
-            </div>
-            <div class="text">
-                <h4 class="text-white">Classes</h4>
-                <div>
-                  <p>
-                    An Intensive 6weeks Practical class
-                  </p>
-              </div>
-              <a href="course.html" class="primary-btn">
-                View Details
-                <i class="fa fa-long-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt--260" id="c4">
-          <div class="single-blog-post">
-            <img src="img/academy.JPG" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-                <p>last batch bootcamp starts</p>
-                <p>1st November, 2019</p>
-            </div>
-            <div class="text">
-                <h4 class="text-white">Classes</h4>
-                <div>
-                  <p>
-                    An Intensive 6weeks Practical class
-                  </p>
-              </div>
-              <a href="course.html" class="primary-btn">
-                View Details
-                <i class="fa fa-long-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ================ End Blog Post Area ================= -->
+  <!-- ================ End Video Area ================= -->
 
-  <!-- ================ start footer Area ================= -->
-  <footer class="footer-area section-gap">
+  
+
+  
+
+  
+ <!-- ================ start footer Area ================= -->
+ <footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-6 single-footer-widget">

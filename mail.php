@@ -1,31 +1,16 @@
-<?phps
-    $to = 'kolawole4mercy@gmail.com';
-    $firstname = $_POST["fname"];
-    $email= $_POST["email"];
-    $text= $_POST["message"];
-    $phone= $_POST["phone"];
-    
+<?php
+if(isset($_POST["submit"])) {
+$recipient = "kolawole4mercy@gmail.com"; //my email
+echo $subject = 'Email message from Point Plumbing';
+echo $name = $_POST ["yourName"];
+echo $phone = $_POST["yourPhone"];
+echo $email = $_POST["yourEmail"];
 
+ $mailBody="Name: $name\nEmail: $email\n\n$message"; 
 
-    $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+ mail($recipient, $subject, $mailBody, "From: $name <$email>");
 
-    $message ='<table style="width:100%">
-        <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
-        </tr>
-        <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>phone: '.$phone.'</td></tr>
-        <tr><td>Text: '.$text.'</td></tr>
-        
-    </table>';
+echo $thankYou="<p>Thank you! We will be in contact with you shortly.</p>";
 
-    if (@gmail($to, $email, $message, $headers))
-    {
-        echo 'The message has been sent.';
-    }else{
-        echo 'failed';
-    }
-
+}
 ?>
